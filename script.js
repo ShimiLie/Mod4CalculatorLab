@@ -10,24 +10,14 @@ function addition() {
     console.log(value);
 };
 
-function subtraction() {
+
+
+function multiply() {
     let first = document.getElementById("firstNum").value;
     let second = document.getElementById("secondNum").value;
-    let value = parseInt(first) - parseInt(second);
-
-    document.getElementById("value").innerHTML = "=" + value  ;
-    console.log(first);
-    console.log(second);
-    console.log(value);
-};
-
-
-function divide() {
-    let first = document.getElementById("firstNum").value;
-    let second = document.getElementById("secondNum").value;
-    let value = parseInt(first) / parseInt(second);
+    let value = parseInt(first) * parseInt(second);
     
-    document.getElementById("value").innerHTML = "=" + value  ;
+    document.getElementById("value").innerHTML = "=" + "" + value  ;
     console.log(first);
     console.log(second);
     console.log(value);
